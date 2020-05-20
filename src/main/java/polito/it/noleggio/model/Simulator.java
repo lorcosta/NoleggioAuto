@@ -13,7 +13,7 @@ public class Simulator {
 	
 	//PARAMETRI DI SIMULAZIONE
 	private int NC=10;//number of cars
-	private Duration T_IN=Duration.of(19, ChronoUnit.MINUTES);//intervallo di tempo tra i clienti
+	private Duration T_IN=Duration.of(10, ChronoUnit.MINUTES);//intervallo di tempo tra i clienti
 	//inizializzo dei valori perchè c'è il rischio che la simulazione parta senza che i parametri vengano settati
 	private final LocalTime ORA_APERTURA=LocalTime.of(8, 00);
 	private final LocalTime ORA_CHIUSURA=LocalTime.of(17, 00);
